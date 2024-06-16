@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Worksans';
+    src: url(../../assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+#card {
+    font-family: 'Worksans', sans-serif;
+    font-weight: 600;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 25px 22px;
+    overflow: auto;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 700;
+    font-size:20px;
+    height: 60px;
+}
+
+#header svg {
+    width: 25px;
+
+}
+
+#content{
+    font-size: large;
+}
+
+#content svg {
+    float: right;
+
+}
+
+
+::-webkit-scrollbar
+{
+ width: 0px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: var(--Light-pink);
+}
+
+
+@media screen and (min-width: 900px) {
+
+    #card{
+        width: 450px;
+        height: 500px;
+        transform: translate(-50%, -55%);
+        padding: 10px 30px 
+    }
+
+    #header {
+        font-size:25px;
+        height: 90px;
+        gap: 20px;
+    }
+   
+    ::-webkit-scrollbar
+    {
+    width: 0px;
+    background-color: rgb(165, 46, 165);
+    border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar-thumb
+    {
+        height: 20px;
+    border-radius: 360deg;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: white;
+    }
+
+
+}
