@@ -12,7 +12,7 @@
 }
 
 .question svg:hover{
-    transform: rotate(20deg);
+    transform: rotate(25deg);
 }
 
 .question span {
