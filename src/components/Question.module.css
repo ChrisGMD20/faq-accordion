@@ -11,9 +11,14 @@
     width:25px;
 }
 
+.question svg:hover{
+    transform: rotate(20deg);
+}
+
 .question span {
     width: 230px;
 }
+
 
 hr {
     border: none;
