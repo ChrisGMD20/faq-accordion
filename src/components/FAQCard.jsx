@@ -13,7 +13,7 @@ export default function FAQCard() {
             </header>
 
             <div id={FAQCard.content}>
-                <Question question="What is Frontend Mentor and how will help me?"
+                <Question question="What is Frontend Mentor and how will it help me?"
                     answer="Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and Javascript, it's suitable for all levels and ideal for portfolio building"
                 />
 
