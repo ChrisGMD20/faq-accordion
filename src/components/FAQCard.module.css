@@ -82,3 +82,15 @@
         top:55%;
     }   
 }
+
+@media screen and (max-height: 590px) {
+    #card {
+        height:400px;
+    }   
+}
+
+@media screen and (max-height: 420px) {
+    #card {
+        height:250px;
+    }   
+}
