@@ -7,6 +7,11 @@
     
 }
 
+.question:hover {
+    color: #ad28eb;
+    cursor: pointer;
+}
+
 .question svg {
     width:25px;
 }
@@ -18,7 +23,6 @@
 .question span {
     width: 230px;
 }
-
 
 hr {
     border: none;
